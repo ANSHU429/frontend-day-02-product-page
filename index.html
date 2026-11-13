@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Auralis Studio One — premium wireless headphones designed for focus, comfort, and everyday listening."
+    />
+    <title>Auralis Studio One</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="top-banner">
+      Complimentary shipping on orders over $100 <span>↗</span>
+    </div>
+
+    <header class="site-header">
+      <a href="#" class="brand" aria-label="Auralis home">auralis<span>®</span></a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open menu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#story">Our approach</a>
+        <a href="#details">Details</a>
+        <a href="#reviews">Reviews</a>
+      </nav>
+
+      <button class="bag-button" type="button" aria-label="Shopping bag">
+        Bag <span class="bag-count">0</span>
+      </button>
+    </header>
+
+    <main>
+      <div class="crumbs">
+        <a href="#">Audio</a>
+        <span>/</span>
+        <span>Wireless headphones</span>
+      </div>
+
+      <section class="product-showcase" aria-labelledby="product-title">
+        <div class="media-panel">
+          <div class="product-frame">
+            <span class="pill">New · Studio collection</span>
+            <img
+              id="product-image"
+              src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1200&q=80"
+              alt="Auralis Studio One over-ear wireless headphones"
+            />
+            <div class="image-counter">01 <span></span> 03</div>
+          </div>
+
+          <div class="thumb-row" aria-label="Product gallery">
+            <button class="thumb active" type="button" aria-label="View product image 1" aria-pressed="true">
+              <img
+                src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=300&q=80"
+                alt=""
+              />
+            </button>
+            <button class="thumb" type="button" aria-label="View product image 2" aria-pressed="false">
+              <img
+                src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=300&q=80"
+                alt=""
+              />
+            </button>
+            <button class="thumb" type="button" aria-label="View product image 3" aria-pressed="false">
+              <img
+                src="https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=300&q=80"
+                alt=""
+              />
+            </button>
+            <span class="gallery-note">Designed for the long way around.</span>
+          </div>
+        </div>
+
+        <div class="product-panel">
+          <p class="kicker"><span>✦</span> AURALIS / STUDIO SERIES</p>
+          <h1 id="product-title">Sound, in<br />your element.</h1>
+          <p class="subtitle">Studio One wireless headphones</p>
+
+          <div class="review-row">
+            <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+            <a href="#reviews">4.9 <span>(128 reviews)</span></a>
+          </div>
+
+          <div class="price-row">
+            <span class="current-price">$189</span>
+            <span class="old-price">$229</span>
+            <span class="discount">SAVE 17%</span>
+          </div>
+
+          <p class="description">
+            A little more quiet in a noisy world. Rich, considered sound meets all-day comfort in headphones made to move with you.
+          </p>
+
+          <div class="color-block">
+            <div class="section-title">
+              <span>Color</span>
+              <span id="selected-color">Midnight</span>
+            </div>
+
+            <div class="swatches" role="group" aria-label="Choose product color">
+              <button class="swatch midnight selected" type="button" data-color="Midnight" aria-label="Midnight" aria-pressed="true"></button>
+              <button class="swatch cloud" type="button" data-color="Cloud" aria-label="Cloud" aria-pressed="false"></button>
+              <button class="swatch moss" type="button" data-color="Moss" aria-label="Moss" aria-pressed="false"></button>
+            </div>
+          </div>
+
+          <div class="purchase-row">
+            <div class="quantity-selector" aria-label="Quantity selector">
+              <button class="qty-btn" type="button" data-action="decrease" aria-label="Decrease quantity">−</button>
+              <span id="quantity">1</span>
+              <button class="qty-btn" type="button" data-action="increase" aria-label="Increase quantity">+</button>
+            </div>
+
+            <button class="primary-btn" type="button">
+              <span>Add to bag</span>
+              <span id="total-price">$189</span>
+            </button>
+          </div>
+
+          <p class="shipping-note"><span>✓</span> Free shipping · 30-day listening promise</p>
+
+          <div class="info-list" id="details">
+            <details open>
+              <summary>Made for your everyday <span>＋</span></summary>
+              <p>
+                Adaptive noise cancellation, a transparency mode for the moments around you, and soft memory-foam cushions for all-day comfort.
+              </p>
+            </details>
+
+            <details>
+              <summary>What's in the box <span>＋</span></summary>
+              <p>
+                Studio One headphones, a travel pouch, USB-C charging cable, AUX cable, and quick-start guide.
+              </p>
+            </details>
+
+            <details>
+              <summary>Shipping & returns <span>＋</span></summary>
+              <p>
+                Complimentary shipping and a 30-day listening promise. Try them at home, then make the call that feels right for you.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="story" id="story">
+        <p class="kicker">A SMALL ESCAPE, ANYWHERE</p>
+        <h2>Make room for <em>your own frequency.</em></h2>
+
+        <div class="story-bottom">
+          <p>
+            Thoughtful sound, uncomplicated comfort, and fewer interruptions. Studio One makes the everyday feel a little more yours.
+          </p>
+          <a href="#details">Explore the details <span>↗</span></a>
+        </div>
+      </section>
+
+      <section class="review-strip" id="reviews">
+        <span class="stars" aria-hidden="true">★★★★★</span>
+        <blockquote>“The first pair I forget I’m wearing. And the sound is so, so good.”</blockquote>
+        <p>Jules R. <span>· Verified listener</span></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a href="#" class="brand" aria-label="Auralis home">auralis<span>®</span></a>
+      <p>Listen a little closer.</p>
+      <span>© 2025 Auralis Audio</span>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
