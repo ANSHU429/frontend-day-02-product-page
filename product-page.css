@@ -407,9 +407,17 @@ h1 {
   border: 1px solid var(--ink);
 }
 
-.swatch.midnight { background: #30363b; }
-.swatch.cloud { background: #e7e3d8; }
-.swatch.moss { background: #70765d; }
+.swatch.midnight {
+  background: #30363b;
+}
+
+.swatch.cloud {
+  background: #e7e3d8;
+}
+
+.swatch.moss {
+  background: #70765d;
+}
 
 .purchase-row {
   display: flex;
